@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__main {
+    width: 40px;
+    height: 40px;
+}
+
+.logo__user {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .logo__user {
+        display: block;
+    }   
+
+    .logo {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

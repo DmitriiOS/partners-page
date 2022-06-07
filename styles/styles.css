@@ -1,0 +1,18 @@
+@import './reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import './components/header.css';
+@import './components/logo.css';
+@import './components/searchbar.css';
+@import './components/user-info.css';
+@import './components/main.css';
+@import './components/partners-list.css';
+@import './components/item.css';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #121920;
+    background-color: #fff;
+}
+
